@@ -23,8 +23,7 @@ USER_NAME=$(whoami)
 
 # --- 3. SYSTEM INSTALLATION (Apt-Only) ---
 sudo apt update
-sudo apt install -y qemu-kvm qemu-system-x86_64 websockify nginx git curl \
-                 python3-flask python3-websockify python3-pip
+sudo apt install -y qemu-system-x86 websockify nginx git curl python3-flask python3-websockify python3-pip
 
 # --- 4. ASSET SETUP ---
 sudo mkdir -p $FLASK_DIR $NOVNC_DIR
