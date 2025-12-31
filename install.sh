@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 # --- 1. DYNAMIC SYSTEM AUDIT ---
 TOTAL_RAM_MB=$(free -m | awk '/^Mem:/{print $2}')
 SYSTEM_RESERVE_MB=4096
